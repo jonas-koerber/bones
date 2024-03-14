@@ -9,13 +9,17 @@
   </head>
   <body>
 
-    {% sections 'header-group' %}
+    <header>
+      {% sections 'header-group' %}
+    </header>
 
     <main id="MainContent" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
 
-    {% sections 'footer-group' %}
+    <footer>
+      {% sections 'footer-group' %}
+    </footer>
 
   </body>
  </html>
