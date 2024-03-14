@@ -1,0 +1,9 @@
+{
+    "name": "main",
+    "sections": {
+        "main": {
+            "type": "main-404"
+        }
+    },
+    "order": ["main"]
+}
