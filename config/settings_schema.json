@@ -1,0 +1,22 @@
+[
+    {
+        "name": "theme_info",
+        "theme_name": "bonesᵇᵐ 🩻",
+        "theme_author": "jonas-koerber",
+        "theme_version": "1.0.0",
+        "theme_support_url": "https://x.y.z",
+        "theme_documentation_url": "https://x.y.z"
+    },
+    {
+        "name": "Bone category",
+        "settings": [
+            {
+                "type": "checkbox",
+                "label": "Enable bones",
+                "id": "bones",
+                "default": true,
+                "info": "This checkbox does nothing"
+            }
+        ]
+    }
+]
