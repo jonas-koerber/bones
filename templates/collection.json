@@ -1,0 +1,9 @@
+{
+    "name": "main",
+    "sections": {
+        "main": {
+            "type": "empty"
+        }
+    },
+    "order": ["main"]
+}
