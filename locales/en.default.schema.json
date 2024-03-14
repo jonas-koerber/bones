@@ -1,0 +1,13 @@
+{
+    "settings_schema": {
+        "global": {
+            "name": "Bone category",
+            "settings": {
+                "bones": {
+                    "label": "Enable bones",
+                    "info": "This checkbox does nothing"
+                }
+            }
+        }
+    }
+}

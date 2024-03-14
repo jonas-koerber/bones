@@ -8,14 +8,14 @@
         "theme_documentation_url": "https://x.y.z"
     },
     {
-        "name": "Bone category",
+        "name": "t:settings_schema.global.name",
         "settings": [
             {
                 "type": "checkbox",
-                "label": "Enable bones",
+                "label": "t:settings_schema.global.settings.bones.label",
                 "id": "bones",
                 "default": true,
-                "info": "This checkbox does nothing"
+                "info": "t:settings_schema.global.settings.bones.info"
             }
         ]
     }
