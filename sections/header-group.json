@@ -1,0 +1,10 @@
+{
+    "name": "main",
+    "type": "header",
+    "sections": {
+        "main": {
+            "type": "main-header"
+        }
+    },
+    "order": ["main"]
+}

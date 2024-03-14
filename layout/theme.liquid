@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ shop.name }}</title>
-    {{ content_for_header }}
-  </head>
 
+    <title>{{ shop.name }}</title>
+
+    {{ content_for_header }}
+
+  </head>
   <body>
-    {{ content_for_layout }}
+
+    {% sections 'header-group' %}
+
+    <main id="MainContent" role="main" tabindex="-1">
+      {{ content_for_layout }}
+    </main>
+
+    {% sections 'footer-group' %}
+
   </body>
  </html>
